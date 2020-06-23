@@ -13,7 +13,7 @@ Add `markov` as a dependency:
 markov = { git = "https://github.com/mandykoh/rs-markov", tag = "v0.1.0" }
 ```
 
-Create a model for holding your Markov data. The Model needs the _order_ to be specified—a 1st order model tracks probabilities of future symbols based on one prior symbol, whilst a 3rd order model trakcs probabilities of future symbols based on three prior symbols.
+Create a model for holding your Markov data. The Model needs the _order_ to be specified—a 1st order model tracks probabilities of future symbols based on one prior symbol, whilst a 3rd order model tracks probabilities of future symbols based on three prior symbols.
 
 Here we’re specifying a 1st order model:
 
