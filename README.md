@@ -69,7 +69,7 @@ pre.given("the");
 pre.given("quick");
 pre.given("brown");
 
-let prediction = pre.predict(); // returns Some("fox")
+let prediction = pre.predict(); // returns Some(&"fox")
 ```
 
 Predictors can also produce entire most-likely sequences (similarly to Generators but without a random element):
