@@ -1,5 +1,7 @@
 # markov
 
+[![Build Status](https://travis-ci.org/mandykoh/rs-markov.svg?branch=main)](https://travis-ci.org/mandykoh/markov)
+
 Markov model library for Rust
 
 ## Example usage
