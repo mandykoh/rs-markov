@@ -26,7 +26,7 @@ let mut model = markov::Model::empty(1);
 Use an Accumulator to train the model:
 
 ```rust
-let mut acc = markov::Accumulator::new(&model);
+let mut acc = markov::Accumulator::new(&mut model);
 ```
 
 Symbols can be added in sequence to the accumulator, which will update the underlying model. Symbols can represent characters, words, events, or any abstract element in an ordered sequence. If your use case has sequences with logical endings, use `end` to indicate this.
