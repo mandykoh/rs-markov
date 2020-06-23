@@ -1,6 +1,6 @@
 # markov
 
-[![Build Status](https://travis-ci.org/mandykoh/rs-markov.svg?branch=main)](https://travis-ci.org/mandykoh/markov)
+[![Build Status](https://travis-ci.org/mandykoh/rs-markov.svg?branch=main)](https://travis-ci.org/mandykoh/rs-markov)
 
 Markov model library for Rust
 
